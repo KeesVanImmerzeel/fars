@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.com/KVIsweco/fars.svg?branch=master)](https://travis-ci.com/KVIsweco/fars)
+[![Travis build status](https://travis-ci.com/KeesVanImmerzeel/fars.svg?branch=master)](https://travis-ci.com/KeesVanImmerzeel/fars)
 <!-- badges: end -->
 
 The goal of the package fars is to explore the Fatality Analysis Reporting System (FARS).
