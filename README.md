@@ -27,4 +27,7 @@ library(fars)
 fars_read_years(c("2013","2014"))
 ```
 
+## Travis badge
+
+(https://travis-ci.com/KeesVanImmerzeel/fars.svg?branch=master)
 
