@@ -13,7 +13,7 @@ The data is limited to the years 2013, 2014 or 2015.
 You can install the released version of fars from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-devtools::install_github("KVIsweco/fars")
+devtools::install_github("KeesVanImmerzeel/fars")
 ```
 
 ## Example

@@ -27,7 +27,7 @@ More information on the FARS database can be found here:
 ## 2. How to use
 First install the fars package from GitHub:
 
-> `devtools::install_github("KVIsweco/fars")`
+> `devtools::install_github("KeesVanImmerzeel/fars")`
 
 Then load de fars library:
 
