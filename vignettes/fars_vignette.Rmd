@@ -1,0 +1,47 @@
+---
+title: "Using R functions to explore the Fatality Analysis Reporting System (FARS)"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fars_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## 1. Problem solved by the package
+The FARS database is extensive and it may be difficult to get the overall picture.
+This package provide some functions to make the exploration of the database easier.
+
+This exploration is limited to the years 2013, 2014 or 2015. The FARS data of these years is included in the package.
+
+More information on the FARS database can be found here:
+
+<https://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS)>
+
+## 2. How to use
+First install the fars package from GitHub:
+
+> `devtools::install_github("KVIsweco/fars")`
+
+Then load de fars library:
+
+> `library(fars)`
+
+Now the functions of the package are available to be used.
+
+
+## 3. Available functions
+
+`fars_summarize_years()`: From specified years, return the number of fatal accidents per month.
+
+`fars_map_state()`: From specified year and state number, create a map of the accidents.
+
+You can get help with any function with `?function()`, like: 
+
+`?fars_summarize_years()`
